@@ -1,0 +1,66 @@
+2022-06-09 00:00:00.006 Info App: Application version: 4.7.1.0
+2022-06-09 00:00:00.007 Info App: Emby
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+2022-06-09 00:00:00.007 Info App: Logs path: /config/logs
+2022-06-09 00:00:00.007 Info App: Cache path: /config/cache
+2022-06-09 00:00:00.007 Info App: Internal metadata path: /config/metadata
+2022-06-09 00:00:00.007 Info App: Transcoding temporary files path: /config/transcoding-temp
+2022-06-09 00:00:00.015 Info App: Plugins:
+	Bluray Folder Support 1.0.0.0
+	Cinema Intros 1.0.40.0
+	Dlna 1.0.80.0
+	Dvd Folder Support 1.0.0.0
+	Emby Guide Data 1.0.7.0
+	Fanart.tv 1.0.13.0
+	M3U TV Tuner 1.0.13.0
+	MovieDb 1.5.6.0
+	MusicBrainz 1.0.18.0
+	Nfo Metadata 1.0.67.0
+	OMDb 1.0.17.0
+	Open Subtitles 1.0.31.0
+	Port Mapper 1.1.8.0
+	Studio Images 1.0.3.0
+	TheAudioDb 1.0.15.0
+	TheTVDB 1.2.8.0
+	Webhooks 1.0.19.0
+	XmlTV 1.0.5.0
+2022-06-09 11:45:33.771 Info LibraryMonitor: Stopping directory watching for path /mnt/share3
+2022-06-09 11:45:33.771 Info LibraryMonitor: Stopping directory watching for path /mnt/share2
+2022-06-09 11:45:33.771 Info LibraryMonitor: Stopping directory watching for path /mnt/share1
+2022-06-09 11:45:33.945 Info HttpClient: GET https://api4.thetvdb.com/v4/series/75978/episodes/official?page=0
+2022-06-09 11:45:35.755 Info HttpClient: GET https://api4.thetvdb.com/v4/series/75978/episodes/official/eng?page=0
+2022-06-09 11:45:36.628 Info HttpClient: GET https://api4.thetvdb.com/v4/series/273181/episodes/official?page=0
+2022-06-09 11:45:37.211 Info HttpClient: GET https://api4.thetvdb.com/v4/series/273181/episodes/official/eng?page=0
+2022-06-09 11:45:37.571 Info HttpClient: GET https://api4.thetvdb.com/v4/series/73871/episodes/official?page=0
+2022-06-09 11:45:38.138 Info HttpClient: GET https://api4.thetvdb.com/v4/series/73871/episodes/official/eng?page=0
+2022-06-09 11:45:38.794 Info HttpClient: GET https://api4.thetvdb.com/v4/series/270915/episodes/official?page=0
+2022-06-09 11:45:38.966 Info HttpClient: GET https://api4.thetvdb.com/v4/series/270915/episodes/official/eng?page=0
+2022-06-09 11:45:39.427 Info HttpClient: GET https://api4.thetvdb.com/v4/series/275274/episodes/official?page=0
+2022-06-09 11:45:39.740 Info HttpClient: GET https://api4.thetvdb.com/v4/series/275274/episodes/official/eng?page=0
+2022-06-09 11:45:40.399 Info HttpClient: GET https://api4.thetvdb.com/v4/series/76156/episodes/official?page=0
+2022-06-09 11:45:40.723 Info HttpClient: GET https://api4.thetvdb.com/v4/series/76156/episodes/official/eng?page=0
+2022-06-09 11:45:41.542 Info HttpClient: GET https://api4.thetvdb.com/v4/series/75897/episodes/official?page=0
+2022-06-09 11:45:42.397 Info HttpClient: GET https://api4.thetvdb.com/v4/series/75897/episodes/official/eng?page=0
+2022-06-09 11:45:42.638 Info HttpClient: GET https://api4.thetvdb.com/v4/series/266189/episodes/official?page=0
+2022-06-09 11:45:42.834 Info HttpClient: GET https://api4.thetvdb.com/v4/series/266189/episodes/official/eng?page=0
+2022-06-09 11:45:43.064 Info HttpClient: GET https://api4.thetvdb.com/v4/series/266883/episodes/official?page=0
+2022-06-09 11:45:43.249 Info HttpClient: GET https://api4.thetvdb.com/v4/series/266883/episodes/official/eng?page=0
+2022-06-09 11:45:43.506 Info LibraryMonitor: Watching directory /mnt/share3
+2022-06-09 11:45:43.507 Info LibraryMonitor: Watching directory /mnt/share2
+2022-06-09 11:45:43.512 Info LibraryMonitor: Watching directory /mnt/share1
+2022-06-09 18:17:52.874 Info HttpClient: GET https://api.github.com/repos/MediaBrowser/Emby.Releases/releases
+2022-06-09 18:17:55.290 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2022-06-09 22:27:54.797 Info LiveTvManager: Emby Live TV and DVR requires an active Emby Premiere subscription.
+2022-06-09 23:45:33.771 Info LibraryMonitor: Stopping directory watching for path /mnt/share3
+2022-06-09 23:45:33.771 Info LibraryMonitor: Stopping directory watching for path /mnt/share2
+2022-06-09 23:45:33.771 Info LibraryMonitor: Stopping directory watching for path /mnt/share1
+2022-06-09 23:45:34.269 Info LibraryMonitor: Watching directory /mnt/share3
+2022-06-09 23:45:34.270 Info LibraryMonitor: Watching directory /mnt/share2
+2022-06-09 23:45:34.273 Info LibraryMonitor: Watching directory /mnt/share1

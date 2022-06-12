@@ -9,8 +9,9 @@ services:
       - GIDLIST=100 # A comma-separated list of additional GIDs to run emby as (default: 2)
     volumes:
       - /home/sam/Emby/config:/config # Configuration directory
-      - /home/sam/Storage/ssd2/Media/Series:/mnt/share1 # Media directory
-      - /home/sam/Storage/ssd2/Media/Movies:/mnt/share2 # Media directory
+      - /home/sam/Storage/ssd2/Media/Series:/mnt/share1
+      - /home/sam/Storage/ssd2/Media/Movies:/mnt/share2 
+      - /home/sam/Storage/ssd2/embyshare/Unsorted:/mnt/share3 
     ports:
       - 8096:8096 # HTTP port
       - 8920:8920 # HTTPS port

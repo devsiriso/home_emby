@@ -1,0 +1,507 @@
+2022-06-12 00:00:00.000 Info App: Application version: 4.7.1.0
+2022-06-12 00:00:00.000 Info App: Emby
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+2022-06-12 00:00:00.000 Info App: Logs path: /config/logs
+2022-06-12 00:00:00.000 Info App: Cache path: /config/cache
+2022-06-12 00:00:00.000 Info App: Internal metadata path: /config/metadata
+2022-06-12 00:00:00.000 Info App: Transcoding temporary files path: /config/transcoding-temp
+2022-06-12 00:00:00.000 Info App: Plugins:
+	Bluray Folder Support 1.0.0.0
+	Cinema Intros 1.0.40.0
+	Dlna 1.0.80.0
+	Dvd Folder Support 1.0.0.0
+	Emby Guide Data 1.0.7.0
+	Fanart.tv 1.0.13.0
+	M3U TV Tuner 1.0.13.0
+	MovieDb 1.5.6.0
+	MusicBrainz 1.0.18.0
+	Nfo Metadata 1.0.67.0
+	OMDb 1.0.17.0
+	Open Subtitles 1.0.31.0
+	Port Mapper 1.1.8.0
+	Studio Images 1.0.3.0
+	TheAudioDb 1.0.15.0
+	TheTVDB 1.2.8.0
+	Webhooks 1.0.19.0
+	XmlTV 1.0.5.0
+2022-06-12 11:45:33.770 Info LibraryMonitor: Stopping directory watching for path /mnt/share3
+2022-06-12 11:45:33.770 Info LibraryMonitor: Stopping directory watching for path /mnt/share2
+2022-06-12 11:45:33.770 Info LibraryMonitor: Stopping directory watching for path /mnt/share1
+2022-06-12 11:45:33.939 Info HttpClient: GET https://api4.thetvdb.com/v4/series/75978/episodes/official?page=0
+2022-06-12 11:45:34.428 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:34.468 Info HttpClient: GET https://api4.thetvdb.com/v4/series/75978/episodes/official?page=0
+2022-06-12 11:45:34.842 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:34.857 Info HttpClient: GET https://api4.thetvdb.com/v4/series/273181/episodes/official?page=0
+2022-06-12 11:45:35.099 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:35.149 Info HttpClient: GET https://api4.thetvdb.com/v4/series/273181/episodes/official?page=0
+2022-06-12 11:45:35.396 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:35.420 Info HttpClient: GET https://api4.thetvdb.com/v4/series/73871/episodes/official?page=0
+2022-06-12 11:45:35.790 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:35.875 Info HttpClient: GET https://api4.thetvdb.com/v4/series/73871/episodes/official?page=0
+2022-06-12 11:45:36.171 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:36.181 Info HttpClient: GET https://api4.thetvdb.com/v4/series/270915/episodes/official?page=0
+2022-06-12 11:45:36.462 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:36.467 Info HttpClient: GET https://api4.thetvdb.com/v4/series/270915/episodes/official?page=0
+2022-06-12 11:45:36.618 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:36.622 Info HttpClient: GET https://api4.thetvdb.com/v4/series/275274/episodes/official?page=0
+2022-06-12 11:45:36.903 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:36.955 Info HttpClient: GET https://api4.thetvdb.com/v4/series/275274/episodes/official?page=0
+2022-06-12 11:45:37.106 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:37.141 Info HttpClient: GET https://api4.thetvdb.com/v4/series/76156/episodes/official?page=0
+2022-06-12 11:45:37.424 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:37.527 Info HttpClient: GET https://api4.thetvdb.com/v4/series/76156/episodes/official?page=0
+2022-06-12 11:45:37.678 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:37.686 Info HttpClient: GET https://api4.thetvdb.com/v4/series/75897/episodes/official?page=0
+2022-06-12 11:45:37.970 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:37.985 Info HttpClient: GET https://api4.thetvdb.com/v4/series/75897/episodes/official?page=0
+2022-06-12 11:45:38.136 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:38.145 Info HttpClient: GET https://api4.thetvdb.com/v4/series/266189/episodes/official?page=0
+2022-06-12 11:45:38.296 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:38.336 Info HttpClient: GET https://api4.thetvdb.com/v4/series/266189/episodes/official?page=0
+2022-06-12 11:45:38.487 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:38.496 Info HttpClient: GET https://api4.thetvdb.com/v4/series/266883/episodes/official?page=0
+2022-06-12 11:45:38.648 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:38.694 Info HttpClient: GET https://api4.thetvdb.com/v4/series/266883/episodes/official?page=0
+2022-06-12 11:45:38.845 Error App: Error in DummySeasonProvider
+	*** Error Report ***
+	Version: 4.7.1.0
+	Command line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 5.13.0-44-generic (buildd@lcy02-amd64-016) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #49-Ubuntu SMP W
+	Framework: .NET 6.0.2
+	OS/Process: x64/x64
+	Runtime: system/System.Private.CoreLib.dll
+	Processor count: 4
+	Data path: /config
+	Application path: /system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: TooManyRequests
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Tvdb.EntryPoint.GetResponse(HttpRequestOptions request, String method)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodes(String url, Int32 page, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchEpisodesWithAllPages(String url, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.FetchMainResult(String seriesId, String seasonType, CancellationToken cancellationToken)
+	   at Tvdb.TvdbEpisodeProvider.EnsureEpisodesInfo(String id, String seasonType, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Tvdb.TvdbSeriesProvider.GetAllEpisodes(SeriesInfo seriesInfo, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.MissingEpisodeProvider.Run(Series series, LibraryOptions libraryOptions, Boolean addNewItems, IDirectoryService directoryService, CancellationToken cancellationToken)
+	   at Emby.Providers.TV.SeriesMetadataService.AfterMetadataRefresh(Series item, LibraryOptions libraryOptions, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2022-06-12 11:45:38.926 Info LibraryMonitor: Watching directory /mnt/share3
+2022-06-12 11:45:38.926 Info LibraryMonitor: Watching directory /mnt/share2
+2022-06-12 11:45:38.926 Info LibraryMonitor: Watching directory /mnt/share1

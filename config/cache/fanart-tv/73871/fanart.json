@@ -1,0 +1,853 @@
+{
+    "name": "Futurama",
+    "thetvdb_id": "73871",
+    "hdtvlogo": [
+        {
+            "id": "20838",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/hdtvlogo/futurama-5053fd2e8acde.png",
+            "lang": "en",
+            "likes": "9"
+        },
+        {
+            "id": "20203",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/hdtvlogo/futurama-503cc2204990c.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "39796",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/hdtvlogo/futurama-535ea4a97bb61.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "41220",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/hdtvlogo/futurama-53943e86d1136.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "39797",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/hdtvlogo/futurama-535ea4bb2e328.png",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "characterart": [
+        {
+            "id": "15308",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4f12dd0ff2758.png",
+            "lang": "en",
+            "likes": "5"
+        },
+        {
+            "id": "13306",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4e5ff39bde723.png",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "13302",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4e5fecb3f3c4f.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "13303",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4e5fecc2112ab.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "13309",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4e605da344118.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "13310",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4e6058ae52121.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "15311",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4f12df0ceb7d0.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "15313",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4f12e00ea1f4b.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "15314",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4f12e16ed1960.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "15315",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4f12e20f87a7a.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "13304",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4e5fecd7c31c8.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "13307",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4e5ff4982de99.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "13441",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-4e6bd7d026a32.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "43897",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f61fa24e7.png",
+            "lang": "00",
+            "likes": "2"
+        },
+        {
+            "id": "43906",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f70b50625.png",
+            "lang": "00",
+            "likes": "2"
+        },
+        {
+            "id": "43898",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f638e24c6.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43899",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f6491f18a.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43900",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f67cef540.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43901",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f68d84103.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43902",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f6a53535e.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43903",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f6b541201.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43904",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f6c741e1b.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43905",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f6ea75db7.PNG",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43907",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f720891d6.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43908",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f7f7369df57.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43923",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f854806e70e.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43924",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f8549014b4f.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43925",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f854a091bc0.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43926",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f854c880ec1.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43927",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f854da0acc2.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43928",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f854e9604cb.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43929",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f854f96f7da.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43930",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f8550a8e956.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43931",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f8551995dd5.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43932",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f8552b618a3.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43933",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f8553b920e1.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43934",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f8554dbb286.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43935",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f8555e82d98.png",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "43936",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/characterart/futurama-53f8557b646ae.png",
+            "lang": "00",
+            "likes": "1"
+        }
+    ],
+    "clearlogo": [
+        {
+            "id": "416",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearlogo/Futurama-73871.png",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "13572",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearlogo/futurama-4e764d25316cc.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "13615",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearlogo/futurama-4e777a8dd2e7c.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "8996",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearlogo/Futurama-73871-2.png",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "tvthumb": [
+        {
+            "id": "19006",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-4fe54ded27e1f.jpg",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "12715",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-4e4215504ec8d.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "22677",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-5090e7ea82ab3.jpg",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "93672",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-5c7276f3d1b7e.jpg",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "4105",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvthumb/F_73871.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "93671",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-5c7276f3c2f37.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "123957",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-602467c98cd7a.jpg",
+            "lang": "en",
+            "likes": "1"
+        }
+    ],
+    "showbackground": [
+        {
+            "id": "21181",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-5061d7b964c64.jpg",
+            "lang": "",
+            "likes": "4",
+            "season": "all"
+        },
+        {
+            "id": "21179",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-5061d6de32522.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "21182",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-5061d7b965468.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "21198",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5ea62d.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "21200",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5eb3e0.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "21194",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5e5e6f.jpg",
+            "lang": "",
+            "likes": "1",
+            "season": "all"
+        },
+        {
+            "id": "21197",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5e9f07.jpg",
+            "lang": "",
+            "likes": "1",
+            "season": "all"
+        },
+        {
+            "id": "21199",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5ead2d.jpg",
+            "lang": "",
+            "likes": "1",
+            "season": "all"
+        },
+        {
+            "id": "21201",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5ec645.jpg",
+            "lang": "",
+            "likes": "1",
+            "season": "all"
+        },
+        {
+            "id": "28934",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-5190ebc460a5d.jpg",
+            "lang": "",
+            "likes": "1",
+            "season": "all"
+        },
+        {
+            "id": "21195",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5e687a.jpg",
+            "lang": "",
+            "likes": "0",
+            "season": "all"
+        },
+        {
+            "id": "21196",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5e9763.jpg",
+            "lang": "",
+            "likes": "0",
+            "season": "all"
+        },
+        {
+            "id": "21202",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5ecd44.jpg",
+            "lang": "",
+            "likes": "0",
+            "season": "all"
+        }
+    ],
+    "seasonposter": [
+        {
+            "id": "39804",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonposter/futurama-535ea52028749.jpg",
+            "lang": "en",
+            "likes": "4",
+            "season": "6"
+        },
+        {
+            "id": "39805",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonposter/futurama-535ea52c14721.jpg",
+            "lang": "en",
+            "likes": "3",
+            "season": "7"
+        },
+        {
+            "id": "39799",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonposter/futurama-535ea4de6ffd3.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "1"
+        },
+        {
+            "id": "39800",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonposter/futurama-535ea4eadc6d6.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "2"
+        },
+        {
+            "id": "39801",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonposter/futurama-535ea4f712b6f.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "3"
+        },
+        {
+            "id": "39802",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonposter/futurama-535ea503a8f05.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "4"
+        },
+        {
+            "id": "39803",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonposter/futurama-535ea50fc6723.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "5"
+        },
+        {
+            "id": "39824",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonposter/futurama-535eef547f317.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "8"
+        }
+    ],
+    "hdclearart": [
+        {
+            "id": "70641",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/hdclearart/futurama-587cc133953c6.png",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "21118",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/hdclearart/futurama-5060424158474.png",
+            "lang": "en",
+            "likes": "3"
+        }
+    ],
+    "clearart": [
+        {
+            "id": "4102",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearart/F_73871 (1).png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "4101",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearart/F_73871.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "7491",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearart/Futurama-73871-11.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "7492",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearart/Futurama-73871-10.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "7493",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearart/Futurama-73871-9.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "7494",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearart/Futurama-73871-8.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "7497",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearart/Futurama-73871-5.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "7499",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearart/Futurama-73871-4.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "13298",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/clearart/futurama-4e5fd7984318d.png",
+            "lang": "en",
+            "likes": "1"
+        }
+    ],
+    "tvposter": [
+        {
+            "id": "39798",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvposter/futurama-535ea4cf5195d.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "117620",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvposter/futurama-5f6e8b198b8ab.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "123956",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvposter/futurama-6024679ca60ee.jpg",
+            "lang": "en",
+            "likes": "1"
+        }
+    ],
+    "seasonthumb": [
+        {
+            "id": "57374",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b34a62ff.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "1"
+        },
+        {
+            "id": "57375",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b4b728d0.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "2"
+        },
+        {
+            "id": "57376",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b6075ed9.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "3"
+        },
+        {
+            "id": "57377",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b71eab7a.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "4"
+        },
+        {
+            "id": "57378",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b994bc9a.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "5"
+        },
+        {
+            "id": "57379",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114bb2cce1a.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "6"
+        },
+        {
+            "id": "57380",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114bc7bad17.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "7"
+        },
+        {
+            "id": "57381",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114bde3eb95.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "8"
+        },
+        {
+            "id": "6545",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (0).jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "0"
+        },
+        {
+            "id": "6546",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (1).jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "1"
+        },
+        {
+            "id": "6547",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (2).jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "2"
+        },
+        {
+            "id": "6548",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (3).jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "3"
+        },
+        {
+            "id": "6549",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (4).jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "4"
+        },
+        {
+            "id": "6550",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (5).jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "5"
+        },
+        {
+            "id": "123864",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220a1b180c5.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "1"
+        },
+        {
+            "id": "123865",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220a305646f.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "2"
+        },
+        {
+            "id": "123866",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220a461eb85.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "3"
+        },
+        {
+            "id": "123867",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220a696d563.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "4"
+        },
+        {
+            "id": "123868",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220bbad99b2.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "5"
+        },
+        {
+            "id": "123869",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220bce50851.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "6"
+        },
+        {
+            "id": "123870",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220bf239789.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "7"
+        },
+        {
+            "id": "123871",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220c0892843.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "8"
+        },
+        {
+            "id": "13510",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e71723bc83f8.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "1"
+        },
+        {
+            "id": "13513",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e7179d5b349d.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "0"
+        },
+        {
+            "id": "13514",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e7179eea9d02.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "2"
+        },
+        {
+            "id": "13515",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a00d05ac.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "3"
+        },
+        {
+            "id": "13516",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a1fec0f9.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "4"
+        },
+        {
+            "id": "13517",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a3c6fa32.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "5"
+        },
+        {
+            "id": "13518",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a4dbf6e0.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "6"
+        }
+    ],
+    "seasonbanner": [
+        {
+            "id": "123906",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonbanner/futurama-60231a486ccfd.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "1"
+        },
+        {
+            "id": "123907",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonbanner/futurama-60231a58f39a0.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "2"
+        },
+        {
+            "id": "123908",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonbanner/futurama-60231a67b3c62.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "3"
+        },
+        {
+            "id": "123909",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonbanner/futurama-60231a78a9286.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "4"
+        },
+        {
+            "id": "123952",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonbanner/futurama-6024610bded36.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "5"
+        },
+        {
+            "id": "123953",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonbanner/futurama-6024611dd226a.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "6"
+        },
+        {
+            "id": "123954",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/seasonbanner/futurama-6024612e1f3ab.jpg",
+            "lang": "en",
+            "likes": "1",
+            "season": "7"
+        }
+    ],
+    "tvbanner": [
+        {
+            "id": "123958",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvbanner/futurama-6024758604f68.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "56541",
+            "url": "http://assets.fanart.tv/fanart/tv/73871/tvbanner/futurama-55e8891f0d49c.jpg",
+            "lang": "en",
+            "likes": "0"
+        }
+    ]
+}
